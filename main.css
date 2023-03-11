@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+main header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 0px;
+  max-height: 100vh;
+}
+main header img {
+  width: 150px;
+}
+main header nav {
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+main header nav a {
+  text-decoration: none;
+  color: hsl(238, 22%, 44%);
+}
+main .content {
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .content img {
+  width: 40%;
+}
+main .content .email {
+  width: 38%;
+}
+main .content .email h1 {
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
+  line-height: 50px;
+}
+main .content .email h2 {
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243, 87%, 12%);
+}
+main .content .email .Email-input {
+  display: flex;
+  align-items: center;
+}
+main .content .email .Email-input input {
+  width: 52%;
+  padding: 10px;
+}
+main .content .email .Email-input a {
+  width: 100%;
+  text-decoration: none;
+  color: hsl(240, 75%, 98%);
+  background-color: hsl(224, 93%, 58%);
+  margin-left: 15px;
+  width: 34%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+main .content .email .Email-input a:hover {
+  filter: brightness(130%);
+}
+
+main .container {
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.curveimg {
+  position: relative;
+  width: 100%;
+  top: 10px;
+}
+
+.features {
+  padding: 50px 100px 100px;
+  background-color: #f8f8fe;
+  background-repeat: repeat-y;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features .illus {
+  width: 40%;
+}
+.features .about {
+  width: 50%;
+}
+.features .about h1 {
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 40px;
+}
+.features .about h2 {
+  font-size: 0.9rem;
+  width: 80%;
+  line-height: 1.3rem;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(243, 87%, 12%);
+}
+.features .about .link {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+.features .about .link::after {
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  top: 120%;
+  position: absolute;
+}
+.features .about .link:hover {
+  filter: brightness(110%);
+}
+.features .about .link a {
+  color: hsl(0, 0%, 75%);
+  margin-right: 5px;
+  text-decoration: none;
+}
+.features .about .quote {
+  background-color: white;
+  width: 55%;
+  padding: 20px;
+  box-shadow: 1px 1px 15px -10px;
+}
+.features .about .quote > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.82rem;
+  margin: 5px 0px 10px;
+  width: 95%;
+  line-height: 1.4rem;
+  color: hsl(243, 87%, 12%);
+}
+.features .about .quote .profile {
+  display: flex;
+  align-items: center;
+}
+.features .about .quote .profile img {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.features .about .quote .profile p:nth-child(1) {
+  font-size: 0.7rem;
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+}
+.features .about .quote .profile p:nth-child(2) {
+  font-size: 0.5rem;
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+}
+
+.access {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 100px 100px;
+}
+.access .text {
+  width: 50%;
+}
+.access .text h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+.access .text p {
+  color: white;
+  width: 75%;
+  line-height: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+}
+.access .email-access {
+  width: 39%;
+}
+.access .email-access input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.access .email-access .btn a {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  padding: 12px 20px;
+  font-size: 0.85rem;
+}
+.access .email-access .btn a:hover {
+  filter: brightness(120%);
+}
+
+.contact {
+  background-color: hsl(243, 87%, 12%);
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+}
+.contact .info {
+  width: 22%;
+}
+.contact .info > img {
+  filter: invert(100%) sepia(0%) saturate(7462%) hue-rotate(111deg) brightness(98%) contrast(108%);
+  margin-bottom: 15px;
+}
+.contact .info .phone {
+  display: flex;
+  margin: 15px 0px 20px;
+}
+.contact .info .phone img {
+  margin-right: 15px;
+}
+.contact .info .phone p {
+  color: white;
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+}
+.contact .info .mail {
+  display: flex;
+  align-items: center;
+}
+.contact .info .mail img {
+  margin-right: 15px;
+}
+.contact .info .mail p {
+  color: white;
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+}
+.contact .navnsocial {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6%;
+  margin-left: 70px;
+}
+.contact .navnsocial li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.contact .navnsocial a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.contact .navnsocial a:hover {
+  color: hsl(224, 93%, 58%);
+  text-decoration: underline;
+}
+.contact .navnsocial .social a:nth-child(3) img {
+  filter: sepia(30);
+}
+.contact .navnsocial .social a:nth-child(3) img:hover {
+  filter: sepia(0);
+}
+.contact .navnsocial .social a img {
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+  filter: saturate(100);
+}
+.contact .navnsocial .social a img:hover {
+  filter: saturate(4);
+}
+.contact .navnsocial .social a {
+  text-decoration: none;
+}
+.contact footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+}/*# sourceMappingURL=main.css.map */
