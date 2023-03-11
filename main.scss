@@ -25,10 +25,10 @@ $Light-Gray: hsl(0, 0%, 75%);
 
 body {
     font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
 }
 
 main {
+    min-height: 30vh;
     header {
         display: flex;
         justify-content: space-between;
@@ -103,8 +103,6 @@ main {
 
 main .container {
     padding: 100px 0px;
-    display: flex;
-    align-items: center;
 }
 
 .curveimg {
@@ -120,6 +118,7 @@ main .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 27vh;
     .illus {
         width: 40%;
     }
@@ -203,8 +202,10 @@ main .container {
     background-color: $Desaturated-Blue;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-content: center;
     padding: 100px 100px;
+    min-height: 21.5vh;
     .text {
         width: 50%;
         h1 {
@@ -246,8 +247,9 @@ main .container {
     padding: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     position: relative;
+    min-height: 17.5vh;
     .info {
         width: 22%;
         > img {

@@ -8,9 +8,11 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  overflow-x: hidden;
 }
 
+main {
+  min-height: 30vh;
+}
 main header {
   display: flex;
   justify-content: space-between;
@@ -80,8 +82,6 @@ main .content .email .Email-input a:hover {
 
 main .container {
   padding: 100px 0px;
-  display: flex;
-  align-items: center;
 }
 
 .curveimg {
@@ -97,6 +97,7 @@ main .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 27vh;
 }
 .features .illus {
   width: 40%;
@@ -179,8 +180,10 @@ main .container {
   background-color: hsl(238, 22%, 44%);
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-content: center;
   padding: 100px 100px;
+  min-height: 21.5vh;
 }
 .access .text {
   width: 50%;
@@ -220,8 +223,9 @@ main .container {
   padding: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   position: relative;
+  min-height: 17.5vh;
 }
 .contact .info {
   width: 22%;
